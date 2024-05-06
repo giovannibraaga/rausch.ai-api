@@ -17,6 +17,9 @@ importers:
       fastify:
         specifier: ^4.26.2
         version: 4.26.2
+      zod:
+        specifier: ^3.23.6
+        version: 3.23.6
     devDependencies:
       '@types/node':
         specifier: ^20.12.10
@@ -482,6 +485,9 @@ packages:
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
+  zod@3.23.6:
+    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
+
 snapshots:
 
   '@esbuild/aix-ppc64@0.20.2':
@@ -886,3 +892,5 @@ snapshots:
       punycode: 2.3.1
 
   yallist@4.0.0: {}
+
+  zod@3.23.6: {}
