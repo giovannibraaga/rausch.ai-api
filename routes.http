@@ -24,3 +24,16 @@ Content-Type: application/json
 {
     "prompt": "video curto de 30 segundos, cidade"
 }
+
+###
+
+# @name generate-ai-completion
+
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "5824356b-45dd-47ea-a015-02fb9c70a398",
+    "temperature": 0.5,
+    "template": "gere um resumo da transcrição do video: '''{transcription}'''"
+}
